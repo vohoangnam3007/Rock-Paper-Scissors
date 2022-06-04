@@ -1,0 +1,17 @@
+:root {
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --text-color: #333333;
+    --base-color: #120f26;
+}
+
+* {
+    box-sizing:inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size:62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}

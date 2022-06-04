@@ -1,0 +1,136 @@
+.main {
+    width:100vw;
+    height:100vh;
+    background-color:var(--base-color);
+    display: flex;
+    justify-content:center;
+}
+
+/* live score */
+
+.live-score__wrap {
+    width: 300px;
+    height: 120px;
+    border: 4px solid var(--white-color);
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.live-score__wrap:before {
+    content: 'User';
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: var(--white-color);
+    line-height: 30px;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--base-color);
+    top: 40px;
+    left: -48px;
+    border-radius: 10px;
+}
+
+.live-score__wrap:after {
+    content: 'Comp';
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: var(--white-color);
+    line-height: 30px;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--base-color);
+    top: 40px;
+    right: -48px;
+    border-radius: 10px;
+}
+
+.live-score__text {
+    color: var(--white-color);
+    font-size: 4.6rem;
+}
+
+.play-noti__wrap {
+    position: absolute;
+    bottom: -74px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-noti {
+    color: var(--white-color);
+    font-size: 3rem;
+    
+}
+
+
+
+/* gameplay */
+
+.play-wrap {
+    position: fixed;
+    bottom: 200px;
+    width: 100%;
+   
+}
+
+.img-wrap {
+    width: inherit;
+    display: flex;
+    justify-content:center;
+}
+
+.rock {
+
+}
+
+.paper {
+
+}
+
+.scrissors {
+
+}
+
+.img-edit {
+    width: 280px;
+    padding: 0 40px;
+    cursor: pointer;
+}
+
+.img-edit:hover {
+    opacity: 0.7;
+}
+
+.move-left__wrap {
+    position: absolute;
+    bottom: 5px;
+}
+.move-left {
+    font-size: 2rem;
+    margin: 0;
+    color: #589595;
+}
+
+/* reload */
+
+.reload-btn {
+    width: 120px;
+    height: 60px;
+    position: fixed;
+    bottom: 360px;
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--white-color);
+    background-color: aqua;
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    display: none;
+}
